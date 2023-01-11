@@ -1,0 +1,4 @@
+{}
+"scripts": {
+     "start": "node task-01.js"
+},
