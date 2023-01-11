@@ -1,1 +1,19 @@
-{}
+{
+  "name": "goit-js-hw-06",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZuzannaCelnik/goit-js-hw-06.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZuzannaCelnik/goit-js-hw-06/issues"
+  },
+  "homepage": "https://zuzannacelnik.github.io/goit-js-hw-06"
+}
