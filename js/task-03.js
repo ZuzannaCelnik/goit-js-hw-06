@@ -16,8 +16,18 @@ const images = [
 const list = document.querySelector('.gallery');
 
 const gallery = images
-.map((image)=> `<li class="itemImg"><img src="${image.url}", alt="${image.alt}"></li>`)
+.map((image)=> `<li><img class="itemImg"src="${image.url}", width='400', alt="${image.alt}"></li>`)
 .join('');
 
 list.insertAdjacentHTML("afterbegin",gallery)
-console.log(list)
+
+
+const pictures = document.querySelectorAll('.itemImg');
+
+pictures.style.display = 'flex'
+pictures.style.justifyContent = 'center'
+pictures.style.boxSizing = 'border-box'
+pictures.style.flexWrap = 'column-reverse'
+pictures.style.gap = '20px'
+pictures.style.listStyle = 'none'
+

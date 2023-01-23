@@ -6,15 +6,16 @@ form.addEventListener('submit', (e) => {
     const {
         elements: { email, password }
     } = e.currentTarget
-    
-    if (email.value==='' || password.value==='') {
-        alert("Fill the gaps")
-    }
   
     const userInput = {
         email: email.value,
         password: password.value
     }
-    console.log(userInput)
+    
+   if (email.value==='' || password.value==='') {
+        alert("Fill the gaps")
+    } else {
+        console.log(userInput)
+    }
     form.reset();
 })
