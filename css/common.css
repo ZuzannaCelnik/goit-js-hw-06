@@ -23,8 +23,10 @@ button {
   cursor: pointer;
 }
 
-itemImg {
+.itemImg {
   display: flex;
- list-style: none;
-
+  justify-content: center;
+  margin-bottom: 15px;
+  width: 200px;
+  list-style: none;
 }
