@@ -24,3 +24,11 @@ btnCreate.addEventListener('click', () => {
 	boxes.append(...boxesToAdd)
 })
 console.log(inputNum.value)
+
+
+const destroyBoxes = () => {
+	boxes.innerHTML = ''
+}
+btnDestroy.addEventListener('click', () => {
+	destroyBoxes.call()
+})
